@@ -1,0 +1,18 @@
+.list-user {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-atnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.search-form {
+    display: flex;
+    flex-direction: row;
+}
+.table-list {
+    width: 100%;
+}

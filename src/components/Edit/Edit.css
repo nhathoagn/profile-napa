@@ -1,0 +1,250 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-space {
+  justify-content: space-between;
+}
+
+/* .col-2 {
+    width: calc((100% - 30px) / 2);
+  }
+  
+  @media (max-width: 767px) {
+    .col-2 {
+      width: 100%;
+    }
+  } */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* ==========================================================================
+     #PAGE WRAPPER
+     ========================================================================== */
+
+body {
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 13px;
+}
+/* ==========================================================================
+     #SPACING
+     ========================================================================== */
+/* .p-t-130 {
+  padding-top: 50px;
+} */
+
+.p-t-180 {
+  padding-top: 80px;
+}
+
+.p-t-20 {
+  padding-top: 20px;
+}
+
+.p-t-15 {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.p-t-10 {
+  padding-top: 10px;
+}
+
+.p-t-30 {
+  padding-top: 30px;
+}
+
+.m-r-45 {
+  margin-right: 45px;
+}
+
+/* ==========================================================================
+     #BUTTON
+     ========================================================================== */
+
+.p-t-15 button {
+  line-height: 50px;
+  background-color: #4caf50;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  justify-content: center;
+}
+
+button:hover {
+  color: black;
+  transition-duration: 0.4s;
+  background-color: wheat;
+  border: 1px green solid;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.wrapper--w960 {
+  max-width: 960px;
+}
+
+.wrapper--w780 {
+  max-width: 780px;
+}
+
+.wrapper--w680 {
+  max-width: 680px;
+}
+
+/* ==========================================================================
+     #FORM
+     ========================================================================== */
+input {
+  outline: none;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.input--style-4 {
+  line-height: 50px;
+  background: #fafafa;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #666;
+  transition: all 0.4s ease;
+}
+
+.label {
+  font-size: 16px;
+  color: rgb(43, 33, 33);
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.input-group-icon {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  font-size: 18px;
+  color: #999;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   #SELECT2
+   ========================================================================== */
+.select {
+  width: 100%;
+  align-items: center;
+}
+.select select {
+  width: 100%;
+  background-color: #fafafa;
+  color: #666;
+  height: 40px;
+  border-radius: 4px;
+}
+/* ==========================================================================
+     #TITLE
+     ========================================================================== */
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #525252;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+/* ==========================================================================
+     #CARD
+     ========================================================================== */
+.card {
+  border-radius: 3px;
+  background: #fff;
+}
+
+.card-4 {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-4 .card-body {
+  /* padding: 57px 65px;
+  padding-bottom: 65px; */
+}
+
+.btn-edit {
+  margin: 0 50px;
+}
+
+.cancel {
+  background-color: #e6e1e1 !important;
+}
+
+@media (max-width: 767px) {
+  .card-4 .card-body {
+    padding: 50px 40px;
+  }
+}
+.text-danger {
+  color: red;
+  font-size: 20px;
+}

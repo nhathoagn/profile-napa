@@ -1,0 +1,45 @@
+.not-found {
+  display: flex;
+  padding-top: 100px;
+  text-align: center;
+  height: 100vh;
+}
+
+.img-err {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-left: 100px;
+}
+
+.img-err img {
+    height: 60vh;
+}
+
+.error-page {
+  width: 100%;
+  margin-left: 100px;
+}
+
+.error-page p {
+  font-size: 13px;
+}
+
+.error-page h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #9bb4db;
+  font-size: 200px;
+}
+
+.go-home {
+  color: aliceblue;
+  background-color: #6d6cf8;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: #6d6cf8;
+}
+
+.go-home:hover {
+  color: #000;
+  background-color: #6666ea;
+}

@@ -1,0 +1,38 @@
+.header-title{
+  text-align: center;
+  font-size: 53px;
+}
+
+#container{
+  height: 427px;
+}
+
+#login-container {
+  width: 45%;
+  position: relative;
+  top: 44px;
+  left: 434px;
+  margin-bottom: 320.4px;
+}
+
+#login-label {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+#register_btn {
+
+  position: relative;
+  left: 372px;
+}
+
+#login_btn{
+  position: relative;
+  left: 240px;
+}
+
+.container{
+  width: 100%;
+}

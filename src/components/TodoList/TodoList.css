@@ -1,0 +1,96 @@
+.header-container {
+  background-color: #70bdf9;
+  padding: 10px 15px;
+}
+
+.header-title {
+  font-size: 25px;
+  line-height: 1.447em;
+  margin: 0px;
+  color: #001529;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", "Arial";
+}
+
+.todo-container {
+  width: 40%;
+  position: relative;
+  box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 15%);
+}
+
+.completed {
+  font-style: italic;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.btn-style {
+  background: #d35e0f;
+  color: #fff;
+  border: #d35e0f;
+  padding: 5px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+  outline: none;
+}
+
+.btn-style:hover {
+  background: #c0550d;
+  color: #000;
+}
+
+.form-container {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  border: #000;
+}
+
+.input-text {
+  flex: 8;
+  font-size: 14px;
+  padding: 6px 15px;
+  background-color: #fafafa;
+  border: #000;
+  color: #000;
+  outline: none;
+  font-weight: 400;
+  width: 80%;
+}
+
+.input-text::placeholder {
+  color: #000;
+  opacity: 0.8;
+}
+
+.input-submit {
+  width: 133px;
+  background-color: #1890ff;
+  height: 32px;
+  color: #fff;
+}
+
+.todo-item {
+  list-style: none;
+  padding: 15px;
+}
+
+.todo-item span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+  height: 30px;
+  padding-left: 20px;
+}
+
+.todo-item input {
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  width: 5%;
+}
+
+.todo-item:last-child {
+  padding-bottom: 30px;
+}

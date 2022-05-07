@@ -1,0 +1,47 @@
+.register {
+  min-height: calc(100vh - 102.6px);
+}
+
+.register h1 {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-register {
+  width: 40%;
+  margin: 0 auto;
+  color: #212529;
+}
+
+.nest-messages {
+  background-color: #eef9ffed;
+  box-shadow: 0 1px 9px -3px rgb(0 0 0 / 20%);
+  padding: 20px !important;
+  margin-bottom: 20px !important;
+  align-content: center;
+}
+
+.submit {
+  justify-content: center;
+}
+
+.media {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.media span {
+  padding-right: 20px;
+}
+
+.media span svg{
+  width: 20px;
+  height: 20px;
+}
+
+.media span:last-child{
+  padding-right: 0;
+}
